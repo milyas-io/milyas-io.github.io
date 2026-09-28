@@ -1,180 +1,29 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
-
   <meta charset="UTF-8">
-
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <title>Muhammad Ilyas | AI/ML & Software Developer</title>
 
-  <meta
-    name="description"
-    content="Muhammad Ilyas - Computer Science student interested in Artificial Intelligence, Machine Learning, Deep Learning, Agentic AI and Web Development."
-  >
+  <meta name="description"
+    content="Muhammad Ilyas - Computer Science student interested in Artificial Intelligence, Machine Learning, Deep Learning, Agentic AI and Web Development.">
 
-  <!-- Google Font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-
-  <link
-    rel="preconnect"
-    href="https://fonts.gstatic.com"
-    crossorigin
-  >
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
   <link
     href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
-    rel="stylesheet"
-  >
+    rel="stylesheet">
 
-  <!-- Main CSS -->
   <link rel="stylesheet" href="style.css">
-
-  <style>
-
-    .profile-photo-wrapper {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-
-      width: 100%;
-      min-height: 430px;
-
-      border: 1px solid #d9ece9;
-      border-radius: 8px;
-
-      background:
-        radial-gradient(
-          circle at 82% 12%,
-          rgba(249, 115, 22, 0.16),
-          transparent 22%
-        ),
-        radial-gradient(
-          circle at 16% 84%,
-          rgba(15, 118, 110, 0.14),
-          transparent 25%
-        ),
-        linear-gradient(
-          135deg,
-          rgba(255, 255, 255, 0.96),
-          rgba(238, 247, 245, 0.84)
-        );
-
-      overflow: hidden;
-      position: relative;
-    }
-
-    .profile-photo-wrapper::before {
-      content: "";
-
-      position: absolute;
-
-      width: 360px;
-      height: 360px;
-
-      border: 1px dashed rgba(15, 118, 110, 0.18);
-
-      border-radius: 50%;
-    }
-
-    .profile-circle {
-      width: 290px;
-      height: 290px;
-
-      object-fit: cover;
-      object-position: center;
-
-      border-radius: 50%;
-
-      border: 8px solid #ffffff;
-
-      box-shadow:
-        0 18px 40px rgba(16, 24, 40, 0.16);
-
-      position: relative;
-      z-index: 2;
-
-      background: #eef7f5;
-    }
-
-    .profile-caption {
-      position: absolute;
-
-      left: 24px;
-      bottom: 24px;
-
-      z-index: 5;
-
-      padding: 14px 16px;
-
-      border: 1px solid rgba(207, 228, 225, 0.95);
-
-      border-radius: 8px;
-
-      background: rgba(255, 255, 255, 0.90);
-
-      box-shadow:
-        0 14px 28px rgba(16, 24, 40, 0.10);
-
-      backdrop-filter: blur(10px);
-    }
-
-    .profile-caption span {
-      display: block;
-
-      margin-bottom: 4px;
-
-      color: var(--muted);
-
-      font-size: 0.72rem;
-
-      font-weight: 800;
-
-      text-transform: uppercase;
-
-      letter-spacing: 0.04em;
-    }
-
-    .profile-caption strong {
-      color: var(--accent-dark);
-    }
-
-    @media (max-width: 760px) {
-
-      .profile-photo-wrapper {
-        min-height: 360px;
-      }
-
-      .profile-photo-wrapper::before {
-        width: 300px;
-        height: 300px;
-      }
-
-      .profile-circle {
-        width: 235px;
-        height: 235px;
-      }
-
-      .profile-caption {
-        left: 14px;
-        bottom: 14px;
-
-        padding: 11px 12px;
-      }
-    }
-
-  </style>
-
 </head>
-
 
 <body>
 
-
-  <!-- =====================================================
-       NAVBAR
-  ====================================================== -->
+  <!-- ================= NAVBAR ================= -->
 
   <nav class="navbar">
 
@@ -182,389 +31,148 @@
       Muhammad Ilyas
     </div>
 
-
     <ul class="nav-links">
-
-      <li>
-        <a href="#about">About</a>
-      </li>
-
-      <li>
-        <a href="#skills">Skills</a>
-      </li>
-
-      <li>
-        <a href="#projects">Projects</a>
-      </li>
-
-      <li>
-        <a href="#experience">Experience</a>
-      </li>
-
-      <li>
-        <a href="#certifications">Certifications</a>
-      </li>
-
-      <li>
-        <a href="#contact">Contact</a>
-      </li>
-
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#certifications">Certifications</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
 
   </nav>
 
+  <!-- ================= HERO ================= -->
 
-
-  <!-- =====================================================
-       HERO
-  ====================================================== -->
-
-  <header class="hero" id="home">
+  <section class="hero" id="home">
 
     <div class="hero-content">
 
+      <p class="hero-intro">Hello, I'm</p>
 
-      <!-- ================= LEFT SIDE ================= -->
+      <h1>
+        Muhammad<br>
+        <span>Ilyas</span>
+      </h1>
 
-      <div class="hero-copy">
+      <h2>AI / ML Developer</h2>
 
-        <div class="eyebrow">
-          Computer Science Student • AI / ML
-        </div>
+      <div class="hero-line"></div>
 
+      <p class="hero-description">
+        I am a Computer Science student at Quaid-i-Azam University,
+        interested in Artificial Intelligence, Machine Learning,
+        Deep Learning, Agentic AI, and modern web development.
+      </p>
 
-        <h1>
-          Muhammad
-          <br>
-          Ilyas
-        </h1>
-
-
-        <div class="typing">
-          AI / ML Developer
-        </div>
-
-
-        <p class="hero-lead">
-
-          I am a Computer Science student at
-          Quaid-i-Azam University, interested in
-          Artificial Intelligence, Machine Learning,
-          Deep Learning, Agentic AI, and modern
-          web development.
-
-        </p>
-
-
-        <!-- Skills tags -->
-
-        <div class="hero-tags">
-
-          <span>Python</span>
-
-          <span>Machine Learning</span>
-
-          <span>Deep Learning</span>
-
-          <span>Computer Vision</span>
-
-          <span>Web Development</span>
-
-        </div>
-
-
-        <!-- Buttons -->
-
-        <div class="hero-buttons">
-
-          <a
-            href="#projects"
-            class="btn btn-primary"
-          >
-            View Projects
-          </a>
-
-
-          <a
-            href="#contact"
-            class="btn btn-secondary"
-          >
-            Contact Me
-          </a>
-
-        </div>
-
+      <div class="hero-tags">
+        <span>Python</span>
+        <span>Machine Learning</span>
+        <span>Deep Learning</span>
+        <span>Computer Vision</span>
+        <span>Web Development</span>
       </div>
 
+      <div class="hero-buttons">
 
+        <a href="#projects" class="btn btn-primary">
+          View Projects
+        </a>
 
-      <!-- ================= RIGHT SIDE ================= -->
-
-      <div class="hero-panel">
-
-
-        <div class="profile-photo-wrapper">
-
-
-          <!--
-            Your profile picture
-
-            Put your image here:
-
-            images/profile.jpg
-          -->
-
-          <img
-            src="images/profile.jpg"
-            alt="Muhammad Ilyas"
-            class="profile-circle"
-          >
-
-
-          <!-- Small floating caption -->
-
-          <div class="profile-caption">
-
-            <span>
-              Currently Learning
-            </span>
-
-            <strong>
-              Agentic AI
-            </strong>
-
-          </div>
-
-
-        </div>
-
-
-
-        <!-- Activity card -->
-
-        <div class="activity-card">
-
-          <div class="activity-header">
-
-            <span>
-              Current Focus
-            </span>
-
-            <strong>
-              AI / ML
-            </strong>
-
-          </div>
-
-
-          <div class="activity-row">
-
-            <span>
-              Machine Learning
-            </span>
-
-            <i style="--value: 88%;"></i>
-
-          </div>
-
-
-          <div class="activity-row">
-
-            <span>
-              Deep Learning
-            </span>
-
-            <i style="--value: 78%;"></i>
-
-          </div>
-
-
-          <div class="activity-row">
-
-            <span>
-              Agentic AI
-            </span>
-
-            <i style="--value: 65%;"></i>
-
-          </div>
-
-        </div>
-
-
-
-        <!-- Small stats -->
-
-        <div class="hero-stats">
-
-          <div>
-
-            <strong>
-              AI
-            </strong>
-
-            <span>
-              Focus
-            </span>
-
-          </div>
-
-
-          <div>
-
-            <strong>
-              Web
-            </strong>
-
-            <span>
-              Development
-            </span>
-
-          </div>
-
-
-          <div>
-
-            <strong>
-              CS
-            </strong>
-
-            <span>
-              Student
-            </span>
-
-          </div>
-
-        </div>
-
+        <a href="#contact" class="btn btn-secondary">
+          Contact Me
+        </a>
 
       </div>
 
     </div>
 
-  </header>
+    <div class="hero-photo">
 
+      <div class="photo-wrapper">
 
-
-  <!-- =====================================================
-       ABOUT
-  ====================================================== -->
-
-  <section id="about">
-
-    <h2>
-      About Me
-    </h2>
-
-
-    <p class="section-subtitle">
-
-      A little about my background, interests,
-      and what I am working toward.
-
-    </p>
-
-
-    <div class="about-container">
-
-
-      <div class="about-text">
-
-
-        <p>
-
-          I am a Computer Science student at
-          Quaid-i-Azam University, Islamabad,
-          with a growing interest in Artificial
-          Intelligence, Machine Learning, Deep
-          Learning, Agentic AI, and software
-          development.
-
-        </p>
-
-
-        <p>
-
-          I enjoy building practical projects
-          where programming and intelligent
-          systems come together. My experience
-          includes machine learning models,
-          computer vision projects, data analysis,
-          backend APIs, databases, and full-stack
-          web applications.
-
-        </p>
-
-
-        <p>
-
-          Alongside development, I am interested
-          in research and continuously improving
-          my understanding of AI systems and
-          modern software technologies.
-
-        </p>
-
-
-        <div class="about-highlights">
-
-          <span>
-            AI & Machine Learning
-          </span>
-
-          <span>
-            Deep Learning
-          </span>
-
-          <span>
-            Computer Vision
-          </span>
-
-          <span>
-            Web Development
-          </span>
-
-          <span>
-            Research & Learning
-          </span>
-
-        </div>
-
+        <img
+          src="images/profile.jpg"
+          alt="Muhammad Ilyas"
+          class="profile-image">
 
       </div>
 
+      <div class="photo-badge">
+        <span>Currently Learning</span>
+        <strong>Agentic AI</strong>
+      </div>
 
+    </div>
+
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+
+  <section id="about">
+
+    <h2>About Me</h2>
+
+    <p class="section-subtitle">
+      A little about my background, interests, and what I am working toward.
+    </p>
+
+    <div class="about-container">
+
+      <div class="about-text">
+
+        <p>
+          I am a Computer Science student at Quaid-i-Azam University,
+          Islamabad, with a growing interest in Artificial Intelligence,
+          Machine Learning, Deep Learning, Agentic AI, and software
+          development.
+        </p>
+
+        <p>
+          I enjoy building practical projects where programming and
+          intelligent systems come together. My experience includes
+          machine learning models, computer vision projects, data analysis,
+          backend APIs, databases, and full-stack web applications.
+        </p>
+
+        <p>
+          Alongside development, I am interested in research and continuously
+          improving my understanding of AI systems and modern software
+          technologies.
+        </p>
+
+        <div class="about-highlights">
+
+          <span>AI & Machine Learning</span>
+          <span>Deep Learning</span>
+          <span>Computer Vision</span>
+          <span>Web Development</span>
+          <span>Research & Learning</span>
+
+        </div>
+
+      </div>
 
       <div class="about-visual">
 
-
         <div class="focus-card focus-card-main">
 
-          <span>
-            Current Focus
-          </span>
+          <span>Current Focus</span>
 
           <strong>
             AI / ML & Agentic AI
           </strong>
 
           <p>
-
-            Exploring intelligent systems,
-            machine learning workflows,
-            LLM-based applications, and
-            practical AI projects.
-
+            Exploring intelligent systems, machine learning workflows,
+            LLM-based applications, and practical AI projects.
           </p>
 
         </div>
 
-
         <div class="focus-card">
 
-          <span>
-            Development
-          </span>
+          <span>Development</span>
 
           <strong>
             Full-Stack Web
@@ -572,12 +180,9 @@
 
         </div>
 
-
         <div class="focus-card">
 
-          <span>
-            Goal
-          </span>
+          <span>Goal</span>
 
           <strong>
             Research & Real Projects
@@ -585,1056 +190,8 @@
 
         </div>
 
-
       </div>
 
     </div>
 
   </section>
-
-
-
-  <!-- =====================================================
-       SKILLS
-  ====================================================== -->
-
-  <section id="skills">
-
-    <h2>
-      Skills
-    </h2>
-
-
-    <p class="section-subtitle">
-
-      Technologies and areas I have worked with
-      or am currently developing.
-
-    </p>
-
-
-    <div class="skills-container">
-
-
-      <!-- Programming -->
-
-      <div class="skill-card">
-
-        <h3>
-          Programming Languages
-        </h3>
-
-        <span>Python</span>
-        <span>Java</span>
-        <span>C</span>
-        <span>C++</span>
-        <span>JavaScript</span>
-        <span>Dart</span>
-        <span>SQL</span>
-        <span>8086 Assembly</span>
-
-      </div>
-
-
-
-      <!-- AI -->
-
-      <div class="skill-card">
-
-        <h3>
-          Artificial Intelligence
-        </h3>
-
-        <span>Artificial Intelligence</span>
-        <span>Machine Learning</span>
-        <span>Deep Learning</span>
-        <span>Neural Networks</span>
-        <span>Model Training</span>
-        <span>Model Evaluation</span>
-        <span>Transfer Learning</span>
-        <span>Feature Engineering</span>
-
-      </div>
-
-
-
-      <!-- Agentic AI -->
-
-      <div class="skill-card">
-
-        <h3>
-          Generative & Agentic AI
-        </h3>
-
-        <span>LLM Fundamentals</span>
-        <span>Generative AI</span>
-        <span>Agentic AI</span>
-        <span>AI Agents</span>
-        <span>Prompt Engineering</span>
-        <span>LLM Applications</span>
-
-      </div>
-
-
-
-      <!-- Computer Vision -->
-
-      <div class="skill-card">
-
-        <h3>
-          Computer Vision
-        </h3>
-
-        <span>OpenCV</span>
-        <span>Image Processing</span>
-        <span>Image Classification</span>
-        <span>CNNs</span>
-        <span>Data Augmentation</span>
-        <span>Image Preprocessing</span>
-
-      </div>
-
-
-
-      <!-- Data -->
-
-      <div class="skill-card">
-
-        <h3>
-          Data Science & Analytics
-        </h3>
-
-        <span>NumPy</span>
-        <span>Pandas</span>
-        <span>Matplotlib</span>
-        <span>Data Cleaning</span>
-        <span>Data Analysis</span>
-        <span>Data Visualization</span>
-        <span>EDA</span>
-
-      </div>
-
-
-
-      <!-- Web -->
-
-      <div class="skill-card">
-
-        <h3>
-          Web Development
-        </h3>
-
-        <span>HTML5</span>
-        <span>CSS3</span>
-        <span>JavaScript</span>
-        <span>Responsive Design</span>
-        <span>DOM</span>
-        <span>REST APIs</span>
-
-      </div>
-
-
-
-      <!-- Backend -->
-
-      <div class="skill-card">
-
-        <h3>
-          Backend Development
-        </h3>
-
-        <span>Node.js</span>
-        <span>Express.js</span>
-        <span>REST APIs</span>
-        <span>CRUD Operations</span>
-        <span>Authentication</span>
-        <span>MVC Architecture</span>
-
-      </div>
-
-
-
-      <!-- Databases -->
-
-      <div class="skill-card">
-
-        <h3>
-          Databases
-        </h3>
-
-        <span>MySQL</span>
-        <span>MongoDB</span>
-        <span>Database Design</span>
-        <span>SQL Queries</span>
-        <span>Normalization</span>
-        <span>Transactions</span>
-        <span>Data Warehousing</span>
-
-      </div>
-
-
-
-      <!-- Software Development -->
-
-      <div class="skill-card">
-
-        <h3>
-          Software Development
-        </h3>
-
-        <span>Object-Oriented Programming</span>
-        <span>Software Engineering</span>
-        <span>SDLC</span>
-        <span>Debugging</span>
-        <span>Testing</span>
-        <span>Problem Solving</span>
-        <span>Version Control</span>
-
-      </div>
-
-
-
-      <!-- Tools -->
-
-      <div class="skill-card">
-
-        <h3>
-          Tools & Technologies
-        </h3>
-
-        <span>Git</span>
-        <span>GitHub</span>
-        <span>VS Code</span>
-        <span>Postman</span>
-        <span>Jupyter Notebook</span>
-        <span>Google Colab</span>
-        <span>Linux</span>
-        <span>Docker</span>
-
-      </div>
-
-
-    </div>
-
-  </section>
-
-
-
-  <!-- =====================================================
-       PROJECTS
-  ====================================================== -->
-
-  <section
-    id="projects"
-    class="projects-section"
-  >
-
-    <h2>
-      Featured Projects
-    </h2>
-
-
-    <p class="section-subtitle">
-
-      Some of the projects I have worked on
-      during my academic and development journey.
-
-    </p>
-
-
-    <div class="projects-container">
-
-
-      <!-- AI CONTENT MODERATION -->
-
-      <div class="project-card featured-project">
-
-        <div class="project-info">
-
-          <span class="project-label">
-            Full-Stack AI Project
-          </span>
-
-          <h3>
-            AI Content Moderation Platform
-          </h3>
-
-          <p>
-
-            A web-based content moderation platform
-            designed to screen uploaded images,
-            provide automated category predictions
-            and confidence scores, and support an
-            admin review workflow.
-
-          </p>
-
-
-          <div class="tech-stack">
-
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>MongoDB</span>
-            <span>REST API</span>
-            <span>JWT</span>
-            <span>Docker</span>
-
-          </div>
-
-
-          <div class="project-links">
-
-            <a
-              href="https://github.com/milyas-io/ai-content-moderation-platform"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub Repository
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      <!-- AWAN MARBLE -->
-
-      <div class="project-card">
-
-        <div class="project-info">
-
-          <h3>
-            Awan Marble & Granite — E-Commerce Platform
-          </h3>
-
-
-          <p>
-
-            A full-stack e-commerce application
-            developed for a marble and granite
-            business. The system focuses on
-            product browsing, product management,
-            and backend integration.
-
-          </p>
-
-
-          <p>
-
-            The project uses a client-server
-            architecture with RESTful APIs,
-            MongoDB, Node.js, and Express.js.
-
-          </p>
-
-
-          <div class="tech-stack">
-
-            <span>HTML5</span>
-            <span>CSS3</span>
-            <span>JavaScript</span>
-            <span>Node.js</span>
-            <span>Express.js</span>
-            <span>MongoDB</span>
-            <span>REST API</span>
-
-          </div>
-
-
-          <div class="project-links">
-
-            <a
-              href="https://github.com/milyas-io/Awan-Marble-Granite-Ecommerce"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub Repository
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      <!-- PLANT DISEASE -->
-
-      <div class="project-card">
-
-        <div class="project-info">
-
-          <h3>
-            Plant Disease Classification
-          </h3>
-
-
-          <p>
-
-            A deep learning image classification
-            project using convolutional neural
-            networks and transfer learning to
-            classify plant diseases. The project
-            also includes image preprocessing
-            and augmentation.
-
-          </p>
-
-
-          <div class="tech-stack">
-
-            <span>Python</span>
-            <span>TensorFlow</span>
-            <span>OpenCV</span>
-            <span>CNN</span>
-            <span>Deep Learning</span>
-
-          </div>
-
-
-          <div class="project-links">
-
-            <a
-              href="https://github.com/milyas-io/Plant-Disease-Classification"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub Repository
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      <!-- MES -->
-
-      <div class="project-card">
-
-        <div class="project-info">
-
-          <h3>
-            MES Complaint Management System
-          </h3>
-
-
-          <p>
-
-            A desktop-based complaint management
-            system developed in Java. Users can
-            register and track complaints while
-            administrators can manage and update
-            complaint records.
-
-          </p>
-
-
-          <p>
-
-            The project follows an organized
-            architecture using Java Swing,
-            JDBC, MySQL, OOP, and the DAO pattern.
-
-          </p>
-
-
-          <div class="tech-stack">
-
-            <span>Java</span>
-            <span>Java Swing</span>
-            <span>JDBC</span>
-            <span>MySQL</span>
-            <span>OOP</span>
-            <span>DAO Pattern</span>
-
-          </div>
-
-
-          <div class="project-links">
-
-            <a
-              href="https://github.com/milyas-io/MES-Complaint-System"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub Repository
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-
-      <!-- ASSEMBLY -->
-
-      <div class="project-card">
-
-        <div class="project-info">
-
-          <h3>
-            Assembly Breakout Game
-          </h3>
-
-
-          <p>
-
-            A classic arcade-style Breakout game
-            developed using 8086 Assembly.
-            The project includes paddle movement,
-            collision detection, scoring, and
-            low-level memory handling.
-
-          </p>
-
-
-          <div class="tech-stack">
-
-            <span>8086 Assembly</span>
-            <span>DOS</span>
-            <span>Low-Level Programming</span>
-
-          </div>
-
-
-          <div class="project-links">
-
-            <a
-              href="https://github.com/milyas-io/Assembly-Breakout-Game"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              GitHub Repository
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-
-    </div>
-
-  </section>
-
-
-
-  <!-- =====================================================
-       EXPERIENCE
-  ====================================================== -->
-
-  <section id="experience">
-
-    <h2>
-      Experience
-    </h2>
-
-
-    <p class="section-subtitle">
-
-      My teaching and practical experience.
-
-    </p>
-
-
-    <div class="experience-container">
-
-      <div class="experience-card">
-
-        <h3>
-          Computer Science Instructor
-        </h3>
-
-
-        <span>
-          Exploria Academy
-        </span>
-
-
-        <p>
-
-          Taught programming fundamentals and
-          computer science concepts to Matric and
-          FSc students. Focused on problem-solving,
-          logical thinking, programming syntax,
-          and structured programming through
-          practical examples.
-
-        </p>
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-
-  <!-- =====================================================
-       CERTIFICATIONS
-  ====================================================== -->
-
-  <section id="certifications">
-
-    <h2>
-      Certifications
-    </h2>
-
-
-    <p class="section-subtitle">
-
-      Courses and certifications related to
-      programming, AI, databases, research,
-      communication, and professional development.
-
-    </p>
-
-
-    <div class="certifications-container">
-
-
-      <!-- Machine Learning -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/ml_cert.jpg"
-          class="cert-img"
-          alt="Machine Learning certificate"
-        >
-
-        <span>
-
-          Machine Learning Specialization
-
-          <small>
-            DeepLearning.AI
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- Biomedical AI -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/Applied Biomedical AI _OIC  COMSTECH.jpg"
-          class="cert-img"
-          alt="Applied Biomedical AI certificate"
-        >
-
-        <span>
-
-          Applied Biomedical AI
-
-          <small>
-            OIC COMSTECH
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- Research -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/research_methods.jpg"
-          class="cert-img"
-          alt="Research Methods certificate"
-        >
-
-        <span>
-
-          Understanding Research Methods
-
-          <small>
-            University of London
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- SQL -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/sql_cert.jpg"
-          class="cert-img"
-          alt="SQL certificate"
-        >
-
-        <span>
-
-          Databases & SQL
-
-          <small>
-            IBM
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- Python -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/python_cert.jpg"
-          class="cert-img"
-          alt="Python certificate"
-        >
-
-        <span>
-
-          Programming for Everybody
-
-          <small>
-            University of Michigan
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- Python Data Structures -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/python_data_structures.jpg"
-          class="cert-img"
-          alt="Python Data Structures certificate"
-        >
-
-        <span>
-
-          Python Data Structures
-
-          <small>
-            University of Michigan
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- C++ -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/cpp_cert.jpg"
-          class="cert-img"
-          alt="C++ certificate"
-        >
-
-        <span>
-
-          Online C++ Course
-
-          <small>
-            VAS & IGP Certification
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- Communication -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/professional_comm.jpg"
-          class="cert-img"
-          alt="Professional Communication certificate"
-        >
-
-        <span>
-
-          Professional Communication & Confidence
-
-          <small>
-            University of London
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- US Embassy -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/US Embassy_Certificate_English For Business And Entrepreneurship.jpg"
-          class="cert-img"
-          alt="English for Business and Entrepreneurship certificate"
-        >
-
-        <span>
-
-          English for Business & Entrepreneurship
-
-          <small>
-            U.S. Embassy
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- Volunteering -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/VAS Students Welfare Organization_Volunteering_Certification.png"
-          class="cert-img"
-          alt="Volunteering certificate"
-        >
-
-        <span>
-
-          Volunteering Certification
-
-          <small>
-            VAS Students Welfare Organization
-          </small>
-
-        </span>
-
-      </div>
-
-
-
-      <!-- AICP -->
-
-      <div class="cert-card">
-
-        <img
-          src="images/AICP_Certificate.png"
-          class="cert-img"
-          alt="AI Community of Pakistan certificate"
-        >
-
-        <span>
-
-          Section Ambassador
-
-          <small>
-            AI Community of Pakistan
-          </small>
-
-        </span>
-
-      </div>
-
-
-    </div>
-
-  </section>
-
-
-
-  <!-- =====================================================
-       CONTACT
-  ====================================================== -->
-
-  <section id="contact">
-
-    <h2>
-      Contact
-    </h2>
-
-
-    <p class="section-subtitle">
-
-      Feel free to reach out for internships,
-      research opportunities, collaborations,
-      or project discussions.
-
-    </p>
-
-
-    <div class="contact-container">
-
-
-      <div class="contact-card">
-
-
-        <!-- Email -->
-
-        <p class="contact-item">
-
-          <strong>
-            Email
-          </strong>
-
-          <a href="mailto:muh.ilyas.cs@gmail.com">
-
-            muh.ilyas.cs@gmail.com
-
-          </a>
-
-        </p>
-
-
-
-        <!-- Phone -->
-
-        <p class="contact-item">
-
-          <strong>
-            Phone
-          </strong>
-
-          <a href="tel:+923179958716">
-
-            +92 317 9958716
-
-          </a>
-
-        </p>
-
-
-
-        <!-- Location -->
-
-        <p class="contact-item">
-
-          <strong>
-            Location
-          </strong>
-
-          <span>
-            Rawalpindi, Pakistan
-          </span>
-
-        </p>
-
-
-
-        <!-- LinkedIn -->
-
-        <p class="contact-item">
-
-          <strong>
-            LinkedIn
-          </strong>
-
-          <a
-            href="https://www.linkedin.com/in/muhammad-ilyas-ml"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-
-            View Profile
-
-          </a>
-
-        </p>
-
-
-
-        <!-- GitHub -->
-
-        <p class="contact-item">
-
-          <strong>
-            GitHub
-          </strong>
-
-          <a
-            href="https://github.com/milyas-io"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-
-            View Projects
-
-          </a>
-
-        </p>
-
-
-
-        <!-- Email button -->
-
-        <a
-          href="mailto:muh.ilyas.cs@gmail.com"
-          class="btn-contact"
-        >
-
-          Send Me an Email
-
-        </a>
-
-
-      </div>
-
-    </div>
-
-  </section>
-
-
-
-  <!-- =====================================================
-       FOOTER
-  ====================================================== -->
-
-  <footer>
-
-    &copy; 2026 Muhammad Ilyas.
-    Built with HTML, CSS and JavaScript.
-
-  </footer>
-
-
-
-  <!-- JavaScript -->
-
-  <script src="script.js"></script>
-
-
-</body>
-
-</html>
